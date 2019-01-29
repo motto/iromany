@@ -1,0 +1,20 @@
+A karma valami nagyon igazságos és bölcs dologként van kitalálva. Megnyugtatja az embert, azt sugallja hogy a cselekedeteivel irányíthatja a sorsát, hogy a jók elnyerik jutalmukat, a rosszak büntetésüket.Ráadásul teljesen igazságosan hisz végül is azt kapja vissza amit ad. 
+Nosza modellezük le! 
+
+alkossuk meg először az egyént. A modell működőképességéhez két funkcióval kell mindenképpen rendelkeznie.
+ Egy: tudjon cselekedni, interakcióba lépni más objektumokkal. ez adat átadással illetve átvételével szimuláljuk. Mondjuk átad egy számot egytől kilencig.(tetszőleges a végeredmény szempontjából nem lényeges)
+ kettő: legyen szabad akarata el tudja dönteni hogy akar-e és kinek akarja átadni az adatot. Ezt most egy véletlen 
+ generátorral fogjuk szimulálni. (később kifejtendő téma a véletlen és a szabad akarat közötti összefüggés.)
+három: értelemszerűen tudja fogadni az adatot. Persze lehet komplikálni ezt is a szabad akarattal. de ez lényegében  csak az adatátadások számát csökkentené...
+Tehát az objektum véletlen szerűen dönt hogy akar-e és kivel akar adatot cserélni. Ez eddig egyszerű és működőképes.
+Most lássuk a karmát. Neki egy feladata van biztosítani hogy mindenki visszakapja azt az adatot amit adott.
+Ez egyszerű lenne ha ő is egyén lenne. Figyelné hogy ki milyen adatot adott és ugyanolyan adatot adna neki vissza.
+A gond az hogy a karma nem egyén. Nem tud cselekedni,adatot átadni.Tehát egy egyént kell rávennie hogy adjon egy ugyanolyan adatot mint amilyet a másik kiadott. Ezzel viszont durván bele beleavatkozik a szabad akaratba.
+Vagy megvárja míg valamelyik egyén pont egy olyan adatot akar átadni amilyet az első és nem engedi csak az elsőnek átadni. Ezzel még mindig korlátozza a szabad akaratot. bár már nem olyan durván.
+Vagy egyszerűen nem csinál semmit. Rábizza a dolgot a nagy számok törvényére. Ha elegendően sok véletlenszerű interakció történik kiegyenlítik egymást. Ez működik. És mivel a karmának egy örökkévalóság áll rendelkezésére, még működhet is. Tehát egyenlőre ott tartunk hogy ha van is karma nem csinál semmit.
+És bár azt nagy valószínűséggel biztosítja , a nagy számok törvényével, hogy olyan adatot kapjunk amilyet adtunk, de csak korlátlan idő és végtelen számú interakció alatt.Persze előbb is beállhat egyensúlyi állapot. De nem azt mondjuk hogy a karma egyensúlyi állapotot hozhat, hanem hogy hoz, Ez pedig biztosan csak végtelen számú interakcióval lehet biztos. Ami valahogy visszatetsző. Ráadásul felment a gondolkodás és a morál kényszere alól. Hisz a rendszer csak akkor áll le, akkor lesz igazságos, ha minden elképzelhető cselekedetet, a legrémségesebb gaztettől a legnagyobb hősiességig  végtelenszer megcsináltunk.
+ És van egy másik komoly szépséghibája: sokszor előfordul hogy előbb kapunk és csak utána adjuk vissza...Úgy tűnik a bosszú elengedhetetlen része a rendszernek, ami nem túl elegáns... 
+Mi lenne ha beiktatnánk egy csak szócskát? Csak azt kaphatnánk vissza amit adunk. Ez lényeges jobban hangzik. Igaz itt már lenne dolga a karmának is. És csorbulna a szabad akarat is de valahogy úgy érzem megérné!
+Alkossuk hát újra a karmát! Legyen egy adatbázisa amibe feljegyzi hogy ki milyen adatot adott ki. És legyen rout funkciója. Vagyis rajta keresztül érhessék el az objektumok egymást. Ha egy objektum olyan adatot akar a másiknal átadni amit ő még nem adott át, akkor nem engedélyezi. Remek! nézzük mi történik!
+ Semmi! A dolog egyszerűen nem indul be!
+ Hisz alapból minden objektum interakciója nulla. Vagyis semmilyen adatot nem adott még át. ha úgy dönt hogy átad bajban van, hisz csak olyannak adhatná aki már adott ád ilyen adatot... Magyarul az első pofont mindenki igazságtalanul kell hogy kapja! 
